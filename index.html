@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>Mod10Les05</title>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<div class="container-md">
+    <h2>1. Document Manipulation with JavaScript</h2>
+    <ul id="productList">
+        
+    </ul>
+</div>
+
+<hr>
+<div class="container">
+    <h2>2. Form Manipulation with JavaScript</h2>
+    <form id="userInfo">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" email="email" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="userInfoList">
+
+    </div>
+</div>
+<hr>
+<div class="container-md">
+    <h2>3. Styling with JavaScript</h2>
+
+<style>
+    .background-change {
+        background-color: red;
+    }
+
+    /* .backgroundChange2 {
+        background-color: yellow;
+    } */
+
+    .background-change3 {
+        background-color: green;
+    }
+
+    .background-change4 {
+        background-color: blue;
+    }
+
+    .background-change5 {
+        background-color: blueviolet;
+    }
+</style>    
+    
+
+<div id="box1" onclick="changeColor()">Box1: Click me to change color</div>
+<br>
+<div id="box2" style="background-color: blanchedalmond;" onmousedown="changeColor2()">Box2: Mouse down over to change color</div>
+<br>
+<div id="box3"> Box3: Change my color! </div>
+<br>
+<div id="box4" onmouseover="changeColor4()">Box4: Mouse over to change color</div>
+<br>
+<div id="box5">Box5</div>
+<br>
+<button id="button" onclick="changeColor5()"> Click me to change Box5's color</button>
+
+
+    
+
+</div>
+</body>
+<footer>
+    <br><br><br><br><br><br><br><br><br>
+    <p id="smiley" onmouseleave="changeColor3()"> :)</p>
+</footer>
